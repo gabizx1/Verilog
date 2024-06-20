@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 16 10:27:38 2024
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : compmag
+Top-level Entity Name : compmag
+Family : Cyclone II
+Total logic elements : 9
+    Total combinational functions : 9
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 11
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
