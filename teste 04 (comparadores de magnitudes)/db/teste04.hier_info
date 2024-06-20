@@ -1,0 +1,27 @@
+|compmag
+a[0] => x0.IN0
+a[0] => agtb.IN1
+a[0] => altb.IN0
+a[1] => x1.IN0
+a[1] => agtb.IN1
+a[1] => altb.IN0
+a[2] => x2.IN0
+a[2] => agtb.IN1
+a[2] => altb.IN0
+a[3] => x3.IN0
+a[3] => agtb.IN0
+a[3] => altb.IN0
+b[0] => x0.IN1
+b[0] => altb.IN1
+b[0] => agtb.IN1
+b[1] => x1.IN1
+b[1] => altb.IN1
+b[1] => agtb.IN1
+b[2] => x2.IN1
+b[2] => altb.IN1
+b[2] => agtb.IN1
+b[3] => x3.IN1
+b[3] => altb.IN1
+b[3] => agtb.IN1
+
+
