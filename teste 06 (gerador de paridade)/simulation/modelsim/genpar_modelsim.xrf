@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/gabri/Downloads/testes verilog/teste 06 (gerador de paridade)/genpar.v
+source_file = 1, C:/Users/gabri/Downloads/testes verilog/teste 06 (gerador de paridade)/db/genpar.cbx.xml
+design_name = genpar
+instance = comp, \a[3]~I\, a[3], genpar, 1
+instance = comp, \a[2]~I\, a[2], genpar, 1
+instance = comp, \a[0]~I\, a[0], genpar, 1
+instance = comp, \a[1]~I\, a[1], genpar, 1
+instance = comp, \WideXor0~0\, WideXor0~0, genpar, 1
+instance = comp, \p~I\, p, genpar, 1

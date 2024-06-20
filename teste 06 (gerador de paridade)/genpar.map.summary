@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 05 14:59:40 2024
+Quartus II 32-bit Version : 11.1 Build 173 11/01/2011 SJ Web Edition
+Revision Name : genpar
+Top-level Entity Name : genpar
+Family : Cyclone II
+Total logic elements : 1
+    Total combinational functions : 1
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
