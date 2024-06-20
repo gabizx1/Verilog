@@ -1,0 +1,14 @@
+|barrshift
+a[0] => ShiftLeft0.IN8
+a[1] => ShiftLeft0.IN7
+a[2] => ShiftLeft0.IN6
+a[3] => ShiftLeft0.IN5
+a[4] => ShiftLeft0.IN4
+a[5] => ShiftLeft0.IN3
+a[6] => ShiftLeft0.IN2
+a[7] => ShiftLeft0.IN1
+sh[0] => ShiftLeft0.IN11
+sh[1] => ShiftLeft0.IN10
+sh[2] => ShiftLeft0.IN9
+
+
