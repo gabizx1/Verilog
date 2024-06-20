@@ -1,0 +1,9 @@
+|teste01
+a => u0.IN0
+a => u3.IN0
+b => u0.IN1
+b => u3.IN1
+cin => u1.IN1
+cin => u2.IN1
+
+
