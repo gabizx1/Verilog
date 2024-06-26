@@ -1,5 +1,4 @@
-
-
+//ISSO É UM CÓDIGO TESTE (PODE N FUNCIONAR DIREITO)
 module mux4x1_2 (
     input wire i0, i1, i2, i3,
     input wire s0, s1,
