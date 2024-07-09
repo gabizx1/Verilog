@@ -1,0 +1,15 @@
+|mux2x1_4b
+i0[0] => f.DATAA
+i0[1] => f.DATAA
+i0[2] => f.DATAA
+i0[3] => f.DATAA
+i1[0] => f.DATAB
+i1[1] => f.DATAB
+i1[2] => f.DATAB
+i1[3] => f.DATAB
+s0 => f.OUTPUTSELECT
+s0 => f.OUTPUTSELECT
+s0 => f.OUTPUTSELECT
+s0 => f.OUTPUTSELECT
+
+
