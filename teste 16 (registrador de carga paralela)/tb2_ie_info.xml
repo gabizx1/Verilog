@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>32</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus</CommandLine>
+		<ErrorMessage>Access Violation at 0X670E7B9A</ErrorMessage>
+		<Line>0</Line>
+		<Platform>windows</Platform>
+		<SourceFile>unknown</SourceFile>
+		<StackTrace>
+	 0x670e7b99: QtCore4 + 0xe7b99 (?hasText@QMimeData@@QBE_NXZ + 0x39)
+	 0x7696af87: ole32 + 0x7af87 (CreateDataCache + 0x5917)
+	 0x7696b0c1: ole32 + 0x7b0c1 (CreateDataCache + 0x5a51)
+	 0x7692f6c5: ole32 + 0x3f6c5 (OleConvertOLESTREAMToIStorageEx2 + 0x63b5)
+	 0x75673672: USER32 + 0x33672 (Ordinal2713 + 0x6b2)
+	 0x756644c5: USER32 + 0x244c5 (CallWindowProcW + 0x715)
+	 0x75663f49: USER32 + 0x23f49 (CallWindowProcW + 0x199)
+	 0x7566de5e: USER32 + 0x2de5e (GetPropW + 0xfe)
+	 0x773b919c: ntdll + 0x7919c (KiUserCallbackDispatcher + 0x4c)
+	 0x769697b7: ole32 + 0x797b7 (CreateDataCache + 0x4147)
+	 0x76933a4a: ole32 + 0x43a4a (OleConvertOLESTREAMToIStorageEx2 + 0xa73a)
+	 0x76918687: ole32 + 0x28687 (OleFlushClipboard + 0x57)
+	 0x6507aba2: QtGui4 + 0x7aba2 (?event@QClipboard@@MAE_NPAVQEvent@@@Z + 0x42)
+	 0x670dba1c: QtCore4 + 0xdba1c (?notifyInternal@QCoreApplication@@AAE_NPAVQObject@@PAVQEvent@@@Z + 0x8c)
+	 0x670dc495: QtCore4 + 0xdc495 (?sendEvent@QCoreApplication@@SA_NPAVQObject@@PAVQEvent@@@Z + 0x25)
+	 0x6501b03a: QtGui4 + 0x1b03a (??1QApplication@@UAE@XZ + 0x6a)
+	   0xe42bfc: GCL_AFCQ + 0x2bfc (??1AFCQ_APP@@UAE@XZ + 0x2c)
+	   0xd2511f: SYS_QUI + 0x1511f (??1QUI_APP@@UAE@XZ + 0x3f)
+	   0x4010eb: quartus + 0x10eb (?qgq_main@@YAHHPAPBD@Z + 0xeb)
+	   0xc71c51: CCL_MSG + 0x1c51 (?msg_main_thread@@YAPAXPAX@Z + 0x11)
+	  0x1201be8: ccl_thr + 0x1be8 (_thr_final_wrapper + 0x8)
+	   0xc71bc5: CCL_MSG + 0x1bc5 (?msg_thread_wrapper@@YAPAXP6APAXPAX@Z0@Z + 0x85)
+	   0xbf443a: ccl_mem + 0x443a (?mem_thread_wrapper@@YAPAXP6APAXPAX@Z0@Z + 0x4a)
+	   0xc9b5d1: CCL_MSG + 0x2b5d1 (?msg_exe_main@@YAHHPAPBDP6AHH0@Z@Z + 0x81)
+	   0x40112c: quartus + 0x112c (_main + 0x1c)
+	   0x401c97: quartus + 0x1c97 (_WinMain@16 + 0xb7)
+	   0x40137e: quartus + 0x137e (_atexit + 0x1a1)
+	 0x76657ba8: KERNEL32 + 0x17ba8 (BaseThreadInitThunk + 0x18)
+	 0x773ac10a: ntdll + 0x6c10a (RtlInitializeExceptionChain + 0x6a)
+	 0x773ac08e: ntdll + 0x6c08e (RtlClearBits + 0xbe)
+		</StackTrace>
+		<Subsystem>unknown</Subsystem>
+	</ApplicationError>
+	<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus</CommandLine>
+		<ErrorMessage>Access Violation at 0X6507A576</ErrorMessage>
+		<Line>0</Line>
+		<Platform>windows</Platform>
+		<SourceFile>unknown</SourceFile>
+		<StackTrace>
+	 0x6507a575: QtGui4 + 0x7a575 (?qt_getRegisteredWndClass@@YA?BVQString@@XZ + 0x215)
+	 0x670dba1c: QtCore4 + 0xdba1c (?notifyInternal@QCoreApplication@@AAE_NPAVQObject@@PAVQEvent@@@Z + 0x8c)
+	 0x6712b7f1: QtCore4 + 0x12b7f1 (?sendSpontaneousEvent@QCoreApplication@@CA_NPAVQObject@@PAVQEvent@@@Z + 0x21)
+	 0x65079597: QtGui4 + 0x79597 (?restoreOverrideCursor@QApplication@@SAXXZ + 0x1f87)
+	 0x75673672: USER32 + 0x33672 (Ordinal2713 + 0x6b2)
+	 0x756644c5: USER32 + 0x244c5 (CallWindowProcW + 0x715)
+	 0x75663f49: USER32 + 0x23f49 (CallWindowProcW + 0x199)
+	 0x7566de5e: USER32 + 0x2de5e (GetPropW + 0xfe)
+	 0x773b919c: ntdll + 0x7919c (KiUserCallbackDispatcher + 0x4c)
+	 0x752409fe: combase + 0x1209fe (CoGetErrorInfo + 0x10e)
+	 0x75259ffd: combase + 0x139ffd (Ordinal100 + 0x6ed)
+	 0x7525a0ed: combase + 0x13a0ed (Ordinal100 + 0x7dd)
+	 0x773b6b65: ntdll + 0x76b65 (RtlIpv6AddressToStringA + 0x135)
+	 0x773875ed: ntdll + 0x475ed (RtlDeactivateActivationContextUnsafeFast + 0x13d)
+	 0x7739ed4c: ntdll + 0x5ed4c (LdrShutdownProcess + 0x15c)
+	 0x7739eec4: ntdll + 0x5eec4 (RtlExitUserProcess + 0xb4)
+	 0x76667472: KERNEL32 + 0x27472 (ExitProcess + 0x12)
+	 0x72cd21cb: MSVCR90 + 0x221cb (_amsg_exit + 0x74)
+	 0x72cd2410: MSVCR90 + 0x22410 (_get_pgmptr + 0x195)
+	 0x72cd2480: MSVCR90 + 0x22480 (_exit + 0x10)
+	  0x108180e: CCL_ERR + 0x180e (?err_ie_abort_or_exit@@YAXXZ + 0xe)
+	   0xc9b0fe: CCL_MSG + 0x2b0fe (?finalize@MSG_ERROR_INFO@@QAEXXZ + 0x17e)
+	   0xc9bbfd: CCL_MSG + 0x2bbfd (?report_fatal@MSG_INTERNAL_ERROR@@SAXPBDPAX@Z + 0x5d)
+	  0x10849da: CCL_ERR + 0x49da (?err_report_fatal_exception@@YAXPBDPAX@Z + 0x5a)
+	  0x1084c05: CCL_ERR + 0x4c05 (?err_handle_fatal_exception@@YGJPAU_EXCEPTION_POINTERS@@@Z + 0xa5)
+	 0x76c66ebf: KERNELBASE + 0x216ebf (UnhandledExceptionFilter + 0x17f)
+	 0x773f7150: ntdll + 0xb7150 (LdrResolveDelayLoadsFromDll + 0xd70)
+	 0x773b90f5: ntdll + 0x790f5 (KiUserApcDispatcher + 0x95)
+	 0x773d9cd3: ntdll + 0x99cd3 (RtlInterlockedCompareExchange64 + 0x1c3)
+	 0x773b91e5: ntdll + 0x791e5 (KiUserExceptionDispatcher + 0x25)
+	 0x7696af87: ole32 + 0x7af87 (CreateDataCache + 0x5917)
+	 0x7696b0c1: ole32 + 0x7b0c1 (CreateDataCache + 0x5a51)
+	 0x7692f6c5: ole32 + 0x3f6c5 (OleConvertOLESTREAMToIStorageEx2 + 0x63b5)
+	 0x75673672: USER32 + 0x33672 (Ordinal2713 + 0x6b2)
+	 0x756644c5: USER32 + 0x244c5 (CallWindowProcW + 0x715)
+	 0x75663f49: USER32 + 0x23f49 (CallWindowProcW + 0x199)
+	 0x7566de5e: USER32 + 0x2de5e (GetPropW + 0xfe)
+	 0x773b919c: ntdll + 0x7919c (KiUserCallbackDispatcher + 0x4c)
+	 0x769697b7: ole32 + 0x797b7 (CreateDataCache + 0x4147)
+	 0x76933a4a: ole32 + 0x43a4a (OleConvertOLESTREAMToIStorageEx2 + 0xa73a)
+	 0x76918687: ole32 + 0x28687 (OleFlushClipboard + 0x57)
+	 0x6507aba2: QtGui4 + 0x7aba2 (?event@QClipboard@@MAE_NPAVQEvent@@@Z + 0x42)
+	 0x670dba1c: QtCore4 + 0xdba1c (?notifyInternal@QCoreApplication@@AAE_NPAVQObject@@PAVQEvent@@@Z + 0x8c)
+	 0x670dc495: QtCore4 + 0xdc495 (?sendEvent@QCoreApplication@@SA_NPAVQObject@@PAVQEvent@@@Z + 0x25)
+	 0x6501b03a: QtGui4 + 0x1b03a (??1QApplication@@UAE@XZ + 0x6a)
+	   0xe42bfc: GCL_AFCQ + 0x2bfc (??1AFCQ_APP@@UAE@XZ + 0x2c)
+	   0xd2511f: SYS_QUI + 0x1511f (??1QUI_APP@@UAE@XZ + 0x3f)
+	   0x4010eb: quartus + 0x10eb (?qgq_main@@YAHHPAPBD@Z + 0xeb)
+	   0xc71c51: CCL_MSG + 0x1c51 (?msg_main_thread@@YAPAXPAX@Z + 0x11)
+	  0x1201be8: ccl_thr + 0x1be8 (_thr_final_wrapper + 0x8)
+	   0xc71bc5: CCL_MSG + 0x1bc5 (?msg_thread_wrapper@@YAPAXP6APAXPAX@Z0@Z + 0x85)
+	   0xbf443a: ccl_mem + 0x443a (?mem_thread_wrapper@@YAPAXP6APAXPAX@Z0@Z + 0x4a)
+	   0xc9b5d1: CCL_MSG + 0x2b5d1 (?msg_exe_main@@YAHHPAPBDP6AHH0@Z@Z + 0x81)
+	   0x40112c: quartus + 0x112c (_main + 0x1c)
+	   0x401c97: quartus + 0x1c97 (_WinMain@16 + 0xb7)
+	   0x40137e: quartus + 0x137e (_atexit + 0x1a1)
+	 0x76657ba8: KERNEL32 + 0x17ba8 (BaseThreadInitThunk + 0x18)
+	 0x773ac10a: ntdll + 0x6c10a (RtlInitializeExceptionChain + 0x6a)
+	 0x773ac08e: ntdll + 0x6c08e (RtlClearBits + 0xbe)
+		</StackTrace>
+		<Subsystem>unknown</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>0</CompileID>
+			<DeviceFamily/>
+			<IncrementalCompilation/>
+			<TopLevelEntityName/>
+		</Compilation>
+		<DateInvoked>2024/07/09 05:19:44</DateInvoked>
+		<ElapsedTime>73732</ElapsedTime>
+		<IP>192.168.56.1,192.168.0.102</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>true</IsQt>
+		<License>
+			<Edition>Web Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>4</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>2995</CPUSpeed>
+			<Hostname>GabrielaOliveira</Hostname>
+			<NIC>
+				<Address>0a0027000021</Address>
+			</NIC>
+			<NIC>
+				<Address>00d76d6c8d4c</Address>
+			</NIC>
+			<NIC>
+				<Address>00d76d6c8d4d</Address>
+			</NIC>
+			<NIC>
+				<Address>02d76d6c8d4c</Address>
+			</NIC>
+			<OS>Windows 7</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.2</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>4095</TotalPhysicalRAM>
+			<TotalVirtualRAM>0</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName/>
+			<Revision/>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>237574792660481.1719591625068</InstallationID>
+			<Version>
+				<Build>173</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Web Edition</Edition>
+				<ServicePack>0</ServicePack>
+				<VersionNumber>11.1</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>237574792660481.171448314002952</UserID>
+			<UserName>gabri</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2011-08-26</SchemaVersion>
+</ProgramExecution>
+

@@ -1,0 +1,15 @@
+|RegCarga
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+ld => q[1]~reg0.ENA
+ld => q[0]~reg0.ENA
+ld => q[2]~reg0.ENA
+ld => q[3]~reg0.ENA
+
+
