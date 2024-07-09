@@ -1,0 +1,39 @@
+|RegDesloc
+d[0] => Mux3.IN10
+d[0] => Mux3.IN11
+d[0] => Mux3.IN12
+d[0] => Mux3.IN13
+d[1] => Mux2.IN8
+d[1] => Mux2.IN9
+d[1] => Mux2.IN10
+d[1] => Mux2.IN11
+d[2] => Mux1.IN8
+d[2] => Mux1.IN9
+d[2] => Mux1.IN10
+d[2] => Mux1.IN11
+d[3] => Mux0.IN9
+d[3] => Mux0.IN10
+d[3] => Mux0.IN11
+d[3] => Mux0.IN12
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clr => Mux0.IN13
+clr => Mux1.IN12
+clr => Mux2.IN12
+clr => Mux3.IN14
+ld => Mux0.IN14
+ld => Mux1.IN13
+ld => Mux2.IN13
+ld => Mux3.IN15
+esq => Mux0.IN15
+esq => Mux1.IN14
+esq => Mux2.IN14
+esq => Mux3.IN16
+dir => Mux0.IN16
+dir => Mux1.IN15
+dir => Mux2.IN15
+dir => Mux3.IN17
+
+
